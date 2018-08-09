@@ -946,7 +946,7 @@ Update SSM Agent to the latest version or specify an older version\. This plugin
             "properties": [
                 {
                 "agentName": "amazon-ssm-agent",
-                "source": "https://s3.region.amazonaws.com/aws-ssm-region/manifest.json",
+                "source": "https://s3.region.amazonaws.com/amazon-ssm-region/ssm-agent-manifest.json",
                 "allowDowngrade": "{{ allowDowngrade }}",
                 "targetVersion": "{{ version }}"
                 }
